@@ -6,7 +6,7 @@ import SuccessPage from './components/SuccessPage';
 function App() {
   const [formSessionId, setFormSessionId] = useState(null);
   const [isSubmitted, setIsSubmitted] = useState(false);
-  const API_URL = 'http://localhost:8000';
+  const API_URL = 'https://forms-9hg3.onrender.com/';
 
   useEffect(() => {
     initializeForm();
@@ -46,3 +46,4 @@ function App() {
 }
 
 export default App;
+
